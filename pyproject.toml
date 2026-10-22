@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paired-claim-bootstrap"
+version = "0.1.0a1"
+description = "FR: Estimer les différences appariées avec blocs et hypothèses explicites | EN: Estimate paired differences with blocks and explicit assumptions | ES: Estimar diferencias emparejadas con bloques e hipótesis explícitas"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+paired-claim-bootstrap = "paired_claim_bootstrap.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["paired_claim_bootstrap*"]

@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Estimer les différences appariées avec blocs et hypothèses explicites', 'en': 'Estimate paired differences with blocks and explicit assumptions', 'es': 'Estimar diferencias emparejadas con bloques e hipótesis explícitas'}
